@@ -1,0 +1,7 @@
+#!/bin/bash
+if [[ "$*" == "" ]]; then
+    python cli.py --help
+    exit 0
+fi
+fi
+python cli.py $*
